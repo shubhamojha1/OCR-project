@@ -12,7 +12,7 @@ cap.set(4, height)
 local_host_load_option = tf.saved_model.LoadOptions(experimental_io_device="/job:localhost")
 # pickle_in = open("model_trained.p", "rb")
 # model = pickle.load(pickle_in)
-model = tf.keras.models.load_model(r"C:/Users/subha/PycharmProjects/pythonProject2",
+model = tf.keras.models.load_model(r" ", # absolute path of the saved pickle file directory. DONT give exact pickle file location, just directory.
                                    options=local_host_load_option)
 
 
