@@ -1,5 +1,5 @@
 import PyPDF2
-pdfFileObj = open('object detection\\Payment Status-nptel.pdf', 'rb') 
+pdfFileObj = open('object detection\\xxxxx.pdf', 'rb') 
     
 # creating a pdf reader object 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
